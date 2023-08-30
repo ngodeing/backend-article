@@ -1,0 +1,27 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "img": "argvind.jpg",
+    "title": "Nubia Red magic jadi hp terganas tahun ini",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet magna at est iaculis finibus. Quisque consequat odio vel viverra fringilla. Fusce ac metus id dolor ullamcorper tempus eget vitae eros."
+}
+
+###
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "img": "hw.jpg",
+    "title": "Asal mula Hello World dalam dunia pemrograman",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet magna at est iaculis finibus. Quisque consequat odio vel viverra fringilla. Fusce ac metus id dolor ullamcorper tempus eget vitae eros."
+}
+
+###
+DELETE http://localhost:5000/users/2
