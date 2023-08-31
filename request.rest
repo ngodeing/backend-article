@@ -8,9 +8,9 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "img": "argvind.jpg",
-    "title": "Nubia Red magic jadi hp terganas tahun ini",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet magna at est iaculis finibus. Quisque consequat odio vel viverra fringilla. Fusce ac metus id dolor ullamcorper tempus eget vitae eros."
+    "img": "sunset.jpg",
+    "title": "Kenapa saat sunset matahari terlihat merah?",
+    "paragraph": "Warna-warni yang terlihat saat matahari terbenam disebabkan oleh dispersi cahaya oleh atmosfer Bumi. Saat matahari semakin rendah di langit, cahaya matahari harus melewati lapisan atmosfer yang lebih tebal, menyebabkan spektrum cahaya terurai menjadi warna-warni yang lebih lembut seperti oranye, merah, dan kadang-kadang ungu."
 }
 
 ###
